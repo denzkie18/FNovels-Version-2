@@ -1,90 +1,167 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta name="author" content="Ashborn" />
   <title>FNovels - Free Light Novels</title>
-  
-  <!-- HTML -->
-  
 
-  <!-- Custom Styles -->
-  <link rel="stylesheet" href="fnovels.css">
+  <!--Frameworks-->
+  <link rel="stylesheet" href="w3.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="bootstrap@5.0.0-alpha2.min.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="fnovels.min.css" type="text/css" media="all" />
+  <!--Custome CSS-->
+  <style>
+    .novel-item {
+      width: 100%;
+      height: auto;
+      padding: 5px 3px
+    }
+    .novel-item > h3 {
+      width: inherit;
+      height: auto;
+      padding: 7px 3px;
+      background-color: #FFAF4D;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      color: white
+    }
+    .novel-item > img {
+      width: inherit;
+      height: auto
+    }
+    .searchItems {
+      width: 98%;
+      height: auto;
+      position: absolute;
+      z-index: 5;
+      background-color: #fff;
+      display: none
+    }
+    .searchItems > div {
+      width: inherit;
+      height: auto
+    }
+    .searchItems > div > a {
+      display: flex
+    }
+    .searchItems > div > a > img {
+      width: 45px;
+      height: 65px
+    }
+    .searchItems > div > a > p {
+      width: 100%;
+      overflow: hidden;
+      font-size: 16px;
+    }
+  </style>
 </head>
-
 <body>
-  
-  <nav class="f-navbar f-dark">
-   <div class="f-logo-con">
-     <img src="fnovel_logo.png" class="f-logo" alt="fnovel_logo.png">
-   </div>
-    <button class="f-navbar-btn" type="button"><span class="f-navbar-toggler"></span></button>
+  <nav class="f-nav f-sticky">
+    <div class="f-nav-content f-row">
+      <img class="f-nav-logo" src="fnovelslogo.png" alt="fnovelslogo.png" />
+      <button class="f-nav-toggler f-right"><span></span></button>
+    </div>
+    <div class="f-toggler-content f-text-light">
+      <p>
+        <a href="#">Home</a>
+      </p>
+      <p>
+        <a href="about-us.html">About</a>
+      </p>
+      <p>
+        <a href="#">Contact</a>
+      </p>
+      <p>
+        <a href="schedule.html">Schedule</a>
+      </p>
+    </div>
   </nav>
-  <div class="f-navbar-content">
-    <ul class="f-content">
-      <li><a href="https://www.fnovelsv2.cf/" class="f-content-item">Home</a></li>
-      <li><a href="about-us.html" class="f-content-item">About</a></li>
-      <li><a href="#" class="f-content-item">Contact Us</a></li>
-      <li><a href="#" class="f-content-item">News</a></li>
-    </ul>
-    <div class="f-container">
-      <input type="search" name="search" id="search" placeholder="Search..."/>
-    </div>
-  </div>
-  
   <div class="f-container">
-    <div class="f-container f-pad-1 f-mar-1 f-mb-2 f-round f-light">
-      <h3 class="f-text-red">News Update</h3>
-      <div class="f-row f-mt-1">
-        <img src="https://cdn.novelupdates.com/images/2019/06/71sZwvGyjoL.jpg" alt="image/my step sister is my ex girlfriend.jpg" style="width:85px;height:auto;">
-        <p style="padding-left:5px;">My Step-sister is my Ex-girlfriend Light Novel is getting an anime adaptation. For more information please visit <a href="#" style="text-decoration:underline;">www.animecorner.com</a><br/></p>
-      </div>
-    </div>
-    <fieldset  class="f-pt-1 f-mar-1 f-round f-border-gold f-light">
-      <legend><span class="f-text-gold f-blue f-pad-1 f-round">New Released</span></legend>
-      <div class="f-item-container">
-        <div class="f-item">
-          <p class="f-item-title f-orange f-round-tl f-round-tr f-text-light" title="I Kissed My Girlfriend's Little Sister">Title: I Kissed My Girlfriend's Little Sister</p>
-          <a href="I-kiss-my-girlfriends-little-sister-light-novel.html"><img src="https://cdn.novelupdates.com/images/2020/10/i-kissed-my-girlfriends-little-sister.jpeg" alt="image/i kiss my girlfriends little sister.jpg"></a>
-          <button type="button" class="f-item-btn"><a href="I-kiss-my-girlfriends-little-sister-light-novel.html"><span>Continue Reading &raquo;&raquo;</span></a></button>
-        </div>
-        <div class="f-item">
-          <p class="f-item-title f-text-light f-orange f-round-tl f-round-tr" title="My Step-sister Is My Ex-girlfriend">Title: My Step-sister Is My Ex-girlfriend</p>
-          <a href="my-step-sister-is-my-ex-girlfriend-light-novel.html"><img src="https://cdn.novelupdates.com/images/2019/06/71sZwvGyjoL.jpg" alt="image/my step sister is my ex girlfriend.jpg"></a>
-          <button type="button" class="f-item-btn"><a href="my-step-sister-is-my-ex-girlfriend-light-novel.html"><span>Continue Reading &raquo;&raquo;</span></a></button>
-        </div>
-        <div class="f-item">
-          <p class="f-item-title f-text-light f-orange f-round-tl f-round-tr" title="Gimai Seikatsu">Title: Gimai Seikatsu</p>
-          <a href="days-with-my-step-sister-light-novel-all-volumes.html"><img src="https://cdn.novelupdates.com/images/2021/01/Gimai-Seikatsu.jpg" alt="image/Gimai-Seikatsu.jpg" class="f-item-image"></a>
-          <button type="button" class="f-item-btn"><a href="days-with-my-step-sister-light-novel-all-volumes.html"><span>Continue Reading &raquo;&raquo;</span></a></button>
-        </div>
-        <!--Our Dating Story-->
-        <div class="f-item">
-          <p class="f-item-title f-text-light f-orange f-round-tl f-round-tr" title="Our Dating Story: The Experienced You and Inexperienced Me">Title: Our Dating Story: The Experienced You and Inexperienced Me</p>
-          <a href="our-dating-story-the-experienced-you-and-inexperienced-me-light-novel.html"><img src="https://cdn.novelupdates.com/images/2021/03/Our-Dating-Story-The-Experienced-You-and-The-Inexperienced-Me.jpeg" alt="image/ourdatingstory.jpg"></a>
-          <button type="button" class="f-item-btn"><a href="our-dating-story-the-experienced-you-and-inexperienced-me-light-novel.html"><span>Continue Reading &raquo;&raquo;</span></a></button>
-        </div>
-        <!--Return From Death-->
-        <div class="f-item">
-          <p class="f-item-title f-text-light f-orange f-round-tl f-round-tr" title="Return from Death">Title: Return from Death</p>
-          <a href="Return-of-death-light-novel.html"><img src="https://rimg.bookwalker.jp/9850054/6u1VY3UN~QyhkEGh4TxtSw__.jpg" alt="image/Return-from-Death-Volume-1.jpg"></a>
-          <button type="button" class="f-item-btn"><a href="Return-of-death-light-novel.html"><span>Continue Reading &raquo;&raquo;</span></a></button>
-        </div>
-        <!--Land of leadale-->
-        <div class="f-item">
-          <p class="f-item-title f-text-light f-orange f-round-tl f-round-tr" title="World Of Leadale">Title: World Of Leadale</p>
-          <a href="world-of-leadale-light-novel.html"><img src="https://cdn.novelupdates.com/images/2019/03/8EDAEFF5-F13A-4197-9BD8-832FEBC107BE.jpeg" alt="image/In_the_Land_of_Leadale_light_novel_volume_1_cover.jpg"></a>
-          <button type="button" class="f-item-btn"><a href="world-of-leadale-light-novel.html"><span>Continue Reading &raquo;&raquo;</span></a></button>
-        </div>
-      </div>
-    </fieldset>
+    <form method="get" class="f-mar">
+      <input type="search" name="search" id="search" placeholder="Search Light Novel" class="f-border f-round-tl f-round-tr" />
+      <!--Display Search-->
+      <div class="searchItems"></div>
+      <button class="f-btn full-width f-green f-round-br f-round-bl" type="submit"><span>GO &raquo;</span></button>
+    </form>
   </div>
-  <footer>
-    <p class="f-text-light" style="font-size:12px;">@Alright Reserve 2022</p>
-  </footer>
-  <!-- Project -->
-  <script src="fnovels.js"></script>
+  <!--Item List -->
+  <div class="f-container" style="padding:0 5px;">
+    <h3 class="f-round f-blue" style="width: 170px;color:white;margin-top:7px;">Novel Released</h3>
+    
+    <div class="novel-item">
+    <h3 class="novel-title"><a href="My-Girlfriend-Cheated-on-Me-With-a-Senior-so-Im-Cheating-on-Her-With-His-Girlfriend-LN.html">My Girlfriend Cheated on Me With a Senior, so I'm Cheating on Her With His Girlfriend</a></h3>
+    <img src="image_storage/My-Girlfriend-Cheated-on-Me-With-a-Senior-so-Im-Cheating-on-Her-With-His-Girlfriend-LN.jpg" alt="image_storage/My-Girlfriend-Cheated-on-Me-With-a-Senior-so-Im-Cheating-on-Her-With-His-Girlfriend-LN.jpg">
+    <article>
+      <b>Description</b><br />
+      "Touko-senpai! Please have an affair with me!"<br/>"Calm down, Isshiki-kun… I won't be satisfied unless we make those two who cheated on us experience hell itself!"<br/>Isshiki Yuu was shocked by his girlfriend cheating on him, so he decided to cheat on her with the girlfriend of the boy who stole his girlfriend,...<a href="My-Girlfriend-Cheated-on-Me-With-a-Senior-so-Im-Cheating-on-Her-With-His-Girlfriend-LN.html" class="f-underline">Continue Reading &raquo;</a>
+    </article>
+    </div>
+    <div class="novel-item">
+    <h3 class="novel-title"><a href="How-Could-You-Like-Another-Girl-When-You-Already-Have-A-Cute-Fiance-Like-Me.html">How Could You Like Another Girl When You Already Have A Cute Fiancée Like Me?</a></h3>
+    <img src="image_storage/How-Could-You-Like-Another-Girl-When-You-Already-Have-A-Cute-Fiance-Like-Me.jpg" alt="image_storage/How-Could-You-Like-Another-Girl-When-You-Already-Have-A-Cute-Fiance-Like-Me.jpg">
+    <article>
+      <b>Description</b><br />
+      Chris, a super celebrity beautiful girl who claims to be his fiancée, suddenly appears in front of Kouta, a high school student who is poor and works part-time every day...<a href="How-Could-You-Like-Another-Girl-When-You-Already-Have-A-Cute-Fiance-Like-Me.html" class="f-underline">Continue Reading &raquo;</a>
+    </article>
+    </div>
+    
+    <div class="novel-item">
+      <h3 class="novel-title"><a href="I kiss my girlfriends little sister light novel.html">I Kiss My Girlfriend's Little Sister</a></h3>
+      <img src="image_storage/Cover-1.jpg" alt="image_storage/Cover-1.jpg">
+      <article>
+        <b>Description</b><br />
+        Hiromichi Sato has been dating Haruka for a month, and their relationship is quickly heading in a good direction...<a href="I kiss my girlfriends little sister light novel.html" class="f-underline">Continue Reading &raquo;</a>
+      </article>
+    </div>
+
+    <div class="novel-item">
+      <h3 class="novel-title"><a href="our-dating-story-the-experienced-you-and-the-inexperiece-me.html">Our Dating Story: The Experienced You and The Inexperienced Me</a></h3>
+      <img src="image_storage/0000_cover-2.jpeg" alt="image_storage/0000_cover-2.jpeg">
+      <article>
+        <b>Description</b><br />
+        "I- I like you!" "Eeh? Susuki!?". Kashima Ryuuto, a gloomy high school student. Because of a punishment game, he was forced to confess to Shirakawa Runa, a girl from the top of school caste and admired by everyone...<a href="our-dating-story-the-experienced-you-and-the-inexperiece-me.html" class="f-underline">Continue Reading &raquo;</a>
+      </article>
+    </div>
+
+    <div class="novel-item">
+      <h3 class="novel-title"><a href="my-stepsister-is-my-exgirlfriend-light-novel.html">My Stepsister Is My Ex-girlfriend</a></h3>
+      <img src="image_storage/my-stepsister-is-my-exgirlfriend.jpg" alt="image_storage/my-stepsister-is-my-exgirlfriend.jpg">
+      <article>
+        <b>Description</b><br />
+        A certain boy and girl in middle school became a couple, flirted with each other, disagreed on trivial things, became more frequently irritated with each other...<a href="my-stepsister-is-my-exgirlfriend-light-novel.html" class="f-underline">Continue Reading &raquo;</a>
+      </article>
+    </div>
+
+    <div class="novel-item">
+      <h3 class="novel-title"><a href="days with my stepsister light novel.html">Days With My Step-sister</a></h3>
+      <img src="image_storage/Gimai-Seikatsu.jpg" alt="image_storage/Gimai-Seikatsu.jpg">
+      <article>
+        <b>Description</b><br />
+        From classmates to brother and sister, living under the same roof. After his father's remarriage, Asamura Yuuta ends up getting a new stepsister, coincidentally the number one beauty of the school year...<a href="days with my stepsister light novel.html" class="f-underline">Continue Reading &raquo;</a>
+      </article>
+    </div>
+    <!--Slot 2-->
+    <div class="novel-item">
+      <h3 class="novel-title"><a href="return-from-death-light-novel.html">Return Of Death: I Kicked The Bucket And Now I'm Back At Square One With A Boyfriend Who Doesn't Remember Me</a></h3>
+      <img src="image_storage/Return-from-Death-Volume-1.jpg" alt="image_storage/Return-from-Death-Volume-1.jpg">
+      <article>
+        <b>Description</b><br />
+        Life seemed perfect for Oriana after she started dating Vincent in the winter of her fifth year at the academy. Little did she know...<a href="return-from-death-light-novel.html" class="f-underline">Continue Reading &raquo;</a>
+      </article>
+    </div>
+    <div class="novel-item">
+      <h3 class="novel-title"><a href="#">In The Land Of Leadale</a></h3>
+      <img src="image_storage/In_the_Land_of_Leadale_light_novel_volume_1_cover.jpg" alt="image_storage/In_the_Land_of_Leadale_light_novel_volume_1_cover.jpg">
+      <article>
+        <b>Description</b><br />
+        New Beginnings in Familiar Lands<br />After a horrific accident put her on life support, the last vestige of freedom Keina Kagami had was in the VRMMORPG World of Leadale...<a href="#" class="f-underline">Continue Reading &raquo;</a>
+      </article>
+    </div>
+  </div>
+  <!--Script-->
+  <script src="jquery-3.6.0.min.js"></script>
+  <script src="fnovels.min.js"></script>
+  <script src="fnovels_item.js"></script>
 </body>
 </html>

@@ -1,70 +1,52 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta name="author" content="Ashborn" />
   <title>FNovels - Free Light Novels</title>
   
-  <!-- HTML -->
-  
-
-  <!-- Custom Styles -->
-  <link rel="stylesheet" href="fnovels.css">
+  <!--Frameworks-->
+  <link rel="stylesheet" href="w3.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="bootstrap@5.0.0-alpha2.min.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="fnovels.min.css" type="text/css" media="all" />
+  <!--Custome CSS-->
+  <style>
+    .logo{width:100%;height:auto}
+  </style>
 </head>
-
 <body>
-  
-  <nav class="f-navbar f-dark">
-   <div class="f-logo-con">
-     <img src="fnovel_logo.png" class="f-logo" alt="fnovel_logo.png">
-   </div>
-    <button class="f-navbar-btn" type="button"><span class="f-navbar-toggler"></span></button>
-  </nav>
-  <div class="f-navbar-content">
-    <ul class="f-content">
-      <li><a href="https://www.fnovelsv2.cf" class="f-content-item">Home</a></li>
-      <li><a href="about-us.html" class="f-content-item">About</a></li>
-      <li><a href="#" class="f-content-item">Contact Us</a></li>
-    </ul>
-    <div class="f-container">
-      <input type="search" name="search" id="search" placeholder="Search..."/>
+  <nav class="f-nav f-sticky">
+    <div class="f-nav-content f-row">
+      <img class="f-nav-logo" src="fnovelslogo.png" alt="fnovelslogo.png" />
+      <button class="f-nav-toggler f-right"><span></span></button>
     </div>
+    <div class="f-toggler-content f-text-light">
+      <p><a href="index.html">Home</a></p>
+      <p><a href="#">About</a></p>
+      <p><a href="#">Contact</a></p>
+      <p><a href="schedule.html">Schedule</a></p>
+    </div>
+  </nav>
+
+  <!--Item List -->
+  <div class="f-container" style="padding:0 7px;">
+    <h3 class="f-round f-orange" style="width:110px;color:white;margin-top:10px;">About Us</h3>
+    <img src="fnovelslogo.png" alt="fnovelslogo.png" class="logo">
+    
+    <article>
+      <span>As you may know or not know this page is not owned by any company. This is a free service project created by one person only and does I made sure that this page safe and friendly.<br/><br/>This page contain a lot of Light Novels than can be downloaded for free by anyone. But because of some circumstances the page is not yet available on desktop or devices that higher than 900pixels wide.<br/><br/>I make sure that this page does not have an advertisement so that anyone can easy explore the page and find their favorate without being interrupted by annoying ads. Now, enjoy exploring and download a lot of your favorate Light Novels for free.</span>
+    </article><br/>
+    <h4 style="margin:0;"><b>Information</b></h4>
+    <article>
+      <p>Developer: Ashborn</p>
+      <p>Created: February 6, 2022</p>
+      <p>Copyright: ©Copyrighted</p>
+      <p>Reserve: ®Alright Reserve 2022</p>
+    </article>
   </div>
-  
-  <div class="f-container">
-    <fieldset  class="f-pt-1 f-mar-1 f-round f-border-gold f-light">
-      <legend class="f-blue f-text-light f-pad-1 f-round"><h3>About Us</h3></legend>
-      <div class="f-item-container">
-        <div class="f-item">
-          <a href="#"><img src="fnovel_logo.png" alt="fnovel_logo.png"></a>
-          <h3 class="f-text-green f-mt-1">About Us</h3>
-          <article>
-            <span>Welcome user to FNovels a free light novels. This webpage contain a lot of light novels and also incuded web novels that already converted to light novels. We made this page with friendly UI Interface for a better user experience.<br/><br/>This webpage is for personal use and not owned by any companies. User do not need to login any kinds of account. Hopefully you enjoy exploring light novels here. Thank you!</span><br/><br/>
-            <h3 class="f-text-orange">How to download light novel?</h3>
-            <article><ul class="f-ul-num">
-              <li>Choose your favorate light novel</li>
-              <li>Click continue reading button</li>
-              <li>Scroll down and choose file type (Epub or Pdf) then click volume you want to download</li>
-              <li>You will be redirected to download link (Drive, Dropbox, Mega, Mediafire)</li>
-            </ul></article>
-            <h3 class="f-text-blue">Information</h3>
-            <article><p>Developer: <b>AshBorn</b></p>
-            <p>Published: <b>November 03, 2021</b></p>
-            <p>Patch Update: <b>Version 1.1</b></p>
-            <p>Updated Date: <b>January 30, 2022</b></p>
-            <p>®Alright Reserve 2022</p>
-            <p>©Copyright</p></article>
-          </article>
-        </div>
-      </div>
-    </fieldset>
-  </div>
-  <footer>
-    <p class="f-text-light" style="font-size:12px;">®Alright Reserve 2022</p>
-  </footer>
-  <!-- Project -->
-  <script src="fnovels.js"></script>
+  <!--Script-->
+  <script src="jquery-3.6.0.min.js"></script>
+  <script src="fnovels.min.js"></script>
 </body>
 </html>
