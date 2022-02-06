@@ -15,7 +15,7 @@ $(document).ready(function(){
        },{
          title:"Our Dating Story: The Experienced You And The Inexperienced Me", image:"image_storage/images.jpeg",link:"our-dating-story-the-experienced-you-and-the-inexperiece-me.html"
        },{
-         title:"My Girlfriend Cheated on Me With a Senior, so I'm Cheating on Her With His Girlfriend", image:"image_storage/My-Girlfriend-Cheated-on-Me-With-a-Senior-so-Im-Cheating-on-Her-With-His-Girlfriend-LN.jpg",link:"My-Girlfriend-Cheated-on-Me-With-a-Senior-so-Im-Cheating-on-Her-With-His-Girlfriend-LN.html"
+         title:"My Girlfriend Cheated on Me With a Senior, so I'm Cheating on Her With His Girlfriend", image:"https://cdn.novelupdates.com/images/2022/01/My-Girlfriend-Cheated-on-Me-With-a-Senior-so-Im-Cheating-on-Her-With-His-Girlfriend-LN.jpg",link:"My-Girlfriend-Cheated-on-Me-With-a-Senior-so-Im-Cheating-on-Her-With-His-Girlfriend-LN.html"
        },{
          title:"How Could You Like Another Girl When You Already Have A Cute Fiancée Like Me?", image:"image_storage/How-Could-You-Like-Another-Girl-When-You-Already-Have-A-Cute-Fiance-Like-Me.jpg",link:"How-Could-You-Like-Another-Girl-When-You-Already-Have-A-Cute-Fiance-Like-Me.html"
        }
