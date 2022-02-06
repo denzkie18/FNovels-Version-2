@@ -2,7 +2,7 @@ $(document).ready(function(){
   //List of items
   const items = [
        {
-         title:"Days With My Step-sister", image:"image_storage/Gimai-Seikatsu.jpg",link:"days with my stepsister light novel.html"
+         title:"Days With My Step-sister", image:"https://cdn.novelupdates.com/images/2021/01/Gimai-Seikatsu.jpg",link:"days with my stepsister light novel.html"
        },
        {
          title:"My Stepsister Is My Ex-girlfriend", image:"image_storage/my-stepsister-is-my-exgirlfriend.jpg",link:"my-stepsister-is-my-exgirlfriend-light-novel.html"
