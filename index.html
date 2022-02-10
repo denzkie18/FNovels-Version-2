@@ -15,7 +15,7 @@
     .novel-item {
       width: 100%;
       height: auto;
-      padding: 5px 3px
+      padding: 5px 3px;
     }
     .novel-item > h3 {
       width: inherit;
@@ -26,9 +26,17 @@
       border-top-right-radius: 5px;
       color: white
     }
-    .novel-item > img {
+    .novel-item > div{
+      width:100%;
+      overflow: hidden
+    }
+    .novel-item > div > img {
       width: inherit;
       height: auto
+    }
+    .novel-item > div > img:hover{
+      transform: scale(1.2);
+      transition: transform 1s
     }
     .searchItems {
       width: 98%;
@@ -84,81 +92,137 @@
       <div class="searchItems"></div>
       <button class="f-btn full-width f-green f-round-br f-round-bl" type="submit"><span>GO &raquo;</span></button>
     </form>
+   <!-- <div class="genres f-container" style="padding:0 5px;">
+      <h3>Search For Genre:</h3>
+      <select name="searchGenre" id="searchGenre" style="margin-left: 5px;">
+        <option value="Action" selected>Action</option><option value="Adventure">Adventure</option><option value="Drama">Drama</option><option value="Romance">Romance</option><option value="School Life">School Life</option><option value="Slice Of Life">Slice Of Life</option><option value="Psychological">Psychological</option><option value="Horror">Horror</option><option value="Fantasy">Fantasy</option><option value="Harem">Harem</option><option value="Comedy">Comedy</option><option value="Ecche">Ecche</option><option value="Shoujo">Shoujo</option><option value="Supernatural">Supernatural</option><option value="Magic">Magic</option>
+      </select>
+    </div> -->
   </div>
   <!--Item List -->
   <div class="f-container" style="padding:0 5px;">
-    <h3 class="f-round f-blue" style="width: 170px;color:white;margin-top:7px;">Novel Released</h3>
+    <h3 class="f-round f-blue" style="width: 170px;color:white;margin-top:7px; margin-left: 3px;">Novel Released</h3>
     
-    <div class="novel-item">
+    <p class="f-round f-light announcement" style="font-size:12px;width: 100%;color:black;margin-top:7px; margin-left: 3px;"></p>
+    
+    <div class="novel-item" data-genre="Comedy" data-genre="Romance" data-genre="SchoolLife" data-genre="SliceOfLife" data-genre="Drama">
+      <h3 class="novel-title"><a href="Omiai Shitakunakattanode Muri Nandai na Jouken wo Tsuketara Doukyuusei ga Kita Ken ni Tsuite.html">Omiai Shitakunakattanode, Muri Nandai na Jouken wo Tsuketara Doukyuusei ga Kita Ken ni Tsuite</a></h3>
+      <div>
+       <!-- <img src="image_storage/Omiai Shitakunakattanode, Muri Nandai na Jouken wo Tsuketara Doukyuusei ga Kita Ken ni Tsuite.jpg" alt="image_storage/Omiai Shitakunakattanode, Muri Nandai na Jouken wo Tsuketara Doukyuusei ga Kita Ken ni Tsuite.jpg"> -->
+       <img src="https://cdn.novelupdates.com/images/2020/11/9fo51lu1frqi9b8yimz4j47wageu_kjp_zb_1cz_gldm.jpg" alt="https://cdn.novelupdates.com/images/2020/11/9fo51lu1frqi9b8yimz4j47wageu_kjp_zb_1cz_gldm.jpg">
+      </div>
+      <article>
+        <b>Description</b><br />
+        One day, Yuzuru Takasegawa — a first-year high school student — is urged by his grandfather to go on an arranged marriage meeting, insisting that he wants to see his great-grandson before he dies...<a href="Omiai Shitakunakattanode Muri Nandai na Jouken wo Tsuketara Doukyuusei ga Kita Ken ni Tsuite.html" class="f-underline">Continue Reading &raquo;</a>
+      </article>
+    </div>
+    <div class="novel-item" data-genre="Comedy" data-genre="Romance" data-genre="SchoolLife" data-genre="SliceOfLife">
+    <h3 class="novel-title"><a href="My Plain-looking Fiance is Secretly Sweet with Me.html">My Plain-looking Fiance is Secretly Sweet with Me</a></h3>
+    <div>
+     <!-- <img src="image_storage/My-Plainlooking-Fiance-is-Secretly-Sweet-with-Me_1614145093.jpg" alt="image_storage/My-Plainlooking-Fiance-is-Secretly-Sweet-with-Me_1614145093.jpg"> -->
+       <img src="https://cdn.novelupdates.com/images/2021/02/My-Plainlooking-Fiance-is-Secretly-Sweet-with-Me_1614145093.jpg" alt="https://cdn.novelupdates.com/images/2021/02/My-Plainlooking-Fiance-is-Secretly-Sweet-with-Me_1614145093.jpg">
+    </div>
+    <article>
+      <b>Description</b><br />
+      “Onii-san, congratulations on your marriage. This person is your bride.”
+      “M-my name is Watanae Yuuka… I’m in the same class as you…”<a href="My Plain-looking Fiance is Secretly Sweet with Me.html" class="f-underline">Continue Reading &raquo;</a>
+    </article>
+    </div>
+    <div class="novel-item" data-genre="Comedy" data-genre="Romance" data-genre="SchoolLife" data-genre="SliceOfLife" data-genre="Drama" data-genre="Seinen">
     <h3 class="novel-title"><a href="My-Girlfriend-Cheated-on-Me-With-a-Senior-so-Im-Cheating-on-Her-With-His-Girlfriend-LN.html">My Girlfriend Cheated on Me With a Senior, so I'm Cheating on Her With His Girlfriend</a></h3>
-    <img src="https://cdn.novelupdates.com/images/2022/01/My-Girlfriend-Cheated-on-Me-With-a-Senior-so-Im-Cheating-on-Her-With-His-Girlfriend-LN.jpg" alt="image_storage/My-Girlfriend-Cheated-on-Me-With-a-Senior-so-Im-Cheating-on-Her-With-His-Girlfriend-LN.jpg">
+    <div>
+      <!-- <img src="image_storage/My-Girlfriend-Cheated-on-Me-With-a-Senior-so-Im-Cheating-on-Her-With-His-Girlfriend-LN.jpg" alt="image_storage/My-Girlfriend-Cheated-on-Me-With-a-Senior-so-Im-Cheating-on-Her-With-His-Girlfriend-LN.jpg"> -->
+      <img src="https://cdn.novelupdates.com/images/2022/01/My-Girlfriend-Cheated-on-Me-With-a-Senior-so-Im-Cheating-on-Her-With-His-Girlfriend-LN.jpg" alt="https://cdn.novelupdates.com/images/2022/01/My-Girlfriend-Cheated-on-Me-With-a-Senior-so-Im-Cheating-on-Her-With-His-Girlfriend-LN.jpg">
+    </div>
     <article>
       <b>Description</b><br />
       "Touko-senpai! Please have an affair with me!"<br/>"Calm down, Isshiki-kun… I won't be satisfied unless we make those two who cheated on us experience hell itself!"<br/>Isshiki Yuu was shocked by his girlfriend cheating on him, so he decided to cheat on her with the girlfriend of the boy who stole his girlfriend,...<a href="My-Girlfriend-Cheated-on-Me-With-a-Senior-so-Im-Cheating-on-Her-With-His-Girlfriend-LN.html" class="f-underline">Continue Reading &raquo;</a>
     </article>
     </div>
-    <div class="novel-item">
+    <div class="novel-item" data-genre="Comedy" data-genre="Romance" data-genre="SchoolLife" data-genre="SliceOfLife" data-genre="Drama" data-genre="Harem" data-genre="Shounen">
     <h3 class="novel-title"><a href="How-Could-You-Like-Another-Girl-When-You-Already-Have-A-Cute-Fiance-Like-Me.html">How Could You Like Another Girl When You Already Have A Cute Fiancée Like Me?</a></h3>
-    <img src="https://cdn.novelupdates.com/images/2021/12/How-Could-You-Like-Another-Girl-When-You-Already-Have-A-Cute-Fiance-Like-Me.jpg" alt="image_storage/How-Could-You-Like-Another-Girl-When-You-Already-Have-A-Cute-Fiance-Like-Me.jpg">
+    <div>
+     <!-- <img src="image_storage/How-Could-You-Like-Another-Girl-When-You-Already-Have-A-Cute-Fiance-Like-Me.jpg" alt="image_storage/How-Could-You-Like-Another-Girl-When-You-Already-Have-A-Cute-Fiance-Like-Me.jpg"> -->
+      <img src="https://dl.dropbox.com/s/lip430whs6or84t/how-could-you-like-another-girl-when-you-already-have-a-cute-fiance-like-me.jpg?dl=0" alt="how-could-you-like-another-girl-when-you-already-have-a-cute-fiance-like-me.jpg">
+    </div>
     <article>
       <b>Description</b><br />
       Chris, a super celebrity beautiful girl who claims to be his fiancée, suddenly appears in front of Kouta, a high school student who is poor and works part-time every day...<a href="How-Could-You-Like-Another-Girl-When-You-Already-Have-A-Cute-Fiance-Like-Me.html" class="f-underline">Continue Reading &raquo;</a>
     </article>
     </div>
     
-    <div class="novel-item">
+    <div class="novel-item" data-genre="Comedy" data-genre="Romance" data-genre="SchoolLife" data-genre="SliceOfLife" data-genre="Drama" data-genre="Ecche">
       <h3 class="novel-title"><a href="I kiss my girlfriends little sister light novel.html">I Kiss My Girlfriend's Little Sister</a></h3>
-      <img src="image_storage/Cover-1.jpg" alt="image_storage/Cover-1.jpg">
+      <div>
+        <!--<img src="image_storage/Cover-1.jpg" alt="image_storage/Cover-1.jpg">-->
+        <img src="https://dl.dropbox.com/s/0bs3t0ec6irjbfd/i%20kiss%20my%20girlfriends%20little%20sister%20cover.jpg?dl=0" alt="i%20kiss%20my%20girlfriends%20little%20sister%20cover.jpg">
+      </div>
       <article>
         <b>Description</b><br />
         Hiromichi Sato has been dating Haruka for a month, and their relationship is quickly heading in a good direction...<a href="I kiss my girlfriends little sister light novel.html" class="f-underline">Continue Reading &raquo;</a>
       </article>
     </div>
 
-    <div class="novel-item">
+    <div class="novel-item" data-genre="Romance" data-genre="SchoolLife" data-genre="Drama">
       <h3 class="novel-title"><a href="our-dating-story-the-experienced-you-and-the-inexperiece-me.html">Our Dating Story: The Experienced You and The Inexperienced Me</a></h3>
-      <img src="image_storage/0000_cover-2.jpeg" alt="image_storage/0000_cover-2.jpeg">
+      <div>
+        <!--<img src="image_storage/0000_cover-2.jpeg" alt="image_storage/0000_cover-2.jpeg">-->
+        <img src="https://dl.dropbox.com/s/fzjqtpotp9h1t06/our-dating-story-the-experienced-you-and-the-inexperienced-me.jpeg?dl=0" alt="our-dating-story-the-experienced-you-and-the-inexperienced-me.jpeg" />
+      </div>
       <article>
         <b>Description</b><br />
         "I- I like you!" "Eeh? Susuki!?". Kashima Ryuuto, a gloomy high school student. Because of a punishment game, he was forced to confess to Shirakawa Runa, a girl from the top of school caste and admired by everyone...<a href="our-dating-story-the-experienced-you-and-the-inexperiece-me.html" class="f-underline">Continue Reading &raquo;</a>
       </article>
     </div>
 
-    <div class="novel-item">
+    <div class="novel-item" data-genre="Comedy" data-genre="Romance" data-genre="SchoolLife" data-genre="SliceOfLife" data-genre="Drama">
       <h3 class="novel-title"><a href="my-stepsister-is-my-exgirlfriend-light-novel.html">My Stepsister Is My Ex-girlfriend</a></h3>
-      <img src="image_storage/my-stepsister-is-my-exgirlfriend.jpg" alt="image_storage/my-stepsister-is-my-exgirlfriend.jpg">
+      <div>
+        <!--<img src="image_storage/my-stepsister-is-my-exgirlfriend.jpg" alt="image_storage/my-stepsister-is-my-exgirlfriend.jpg">-->
+        <img src="https://dl.dropbox.com/s/w9gfri7gqr0k2ui/0000_b.jpg?dl=0" alt="0000_b.jpg">
+      </div>
       <article>
         <b>Description</b><br />
         A certain boy and girl in middle school became a couple, flirted with each other, disagreed on trivial things, became more frequently irritated with each other...<a href="my-stepsister-is-my-exgirlfriend-light-novel.html" class="f-underline">Continue Reading &raquo;</a>
       </article>
     </div>
 
-    <div class="novel-item">
+    <div class="novel-item" data-genre="Psychological" data-genre="Romance" data-genre="SchoolLife" data-genre="SliceOfLife" data-genre="Drama">
       <h3 class="novel-title"><a href="days with my stepsister light novel.html">Days With My Step-sister</a></h3>
-      <img src="https://cdn.novelupdates.com/images/2021/01/Gimai-Seikatsu.jpg" alt="image_storage/Gimai-Seikatsu.jpg">
+      <div>
+        <!--<img src="image_storage/Gimai-Seikatsu.jpg" alt="image_storage/Gimai-Seikatsu.jpg">-->
+        <img src="https://dl.dropbox.com/s/d7u38rnb77okm05/Gimai-Seikatsu.jpg?dl=0" alt="Gimai-Seikatsu.jpg">
+      </div>
       <article>
         <b>Description</b><br />
         From classmates to brother and sister, living under the same roof. After his father's remarriage, Asamura Yuuta ends up getting a new stepsister, coincidentally the number one beauty of the school year...<a href="days with my stepsister light novel.html" class="f-underline">Continue Reading &raquo;</a>
       </article>
     </div>
     <!--Slot 2-->
-    <div class="novel-item">
+    <div class="novel-item" data-genre="Shoujo" data-genre="Mystery" data-genre="Fantasy" data-genre="Comedy" data-genre="SchoolLife" data-genre="SliceOfLife" data-genre="Supernatural" data-genre="Romance" data-genre="Magic" data-genre="Drama">
       <h3 class="novel-title"><a href="return-from-death-light-novel.html">Return Of Death: I Kicked The Bucket And Now I'm Back At Square One With A Boyfriend Who Doesn't Remember Me</a></h3>
-      <img src="image_storage/Return-from-Death-Volume-1.jpg" alt="image_storage/Return-from-Death-Volume-1.jpg">
+      <div>
+        <!--<img src="image_storage/Return-from-Death-Volume-1.jpg" alt="image_storage/Return-from-Death-Volume-1.jpg">-->
+        <img src="https://dl.dropbox.com/s/0f7m1m3yfhynrns/return-from-death-volume-1.jpg?dl=0" alt="return-from-death-volume-1.jpg">
+      </div>
       <article>
         <b>Description</b><br />
         Life seemed perfect for Oriana after she started dating Vincent in the winter of her fifth year at the academy. Little did she know...<a href="return-from-death-light-novel.html" class="f-underline">Continue Reading &raquo;</a>
       </article>
     </div>
-    <div class="novel-item">
-      <h3 class="novel-title"><a href="#">In The Land Of Leadale</a></h3>
-      <img src="image_storage/In_the_Land_of_Leadale_light_novel_volume_1_cover.jpg" alt="image_storage/In_the_Land_of_Leadale_light_novel_volume_1_cover.jpg">
+    <div class="novel-item" data-genre="Action" data-genre="Adventure" data-genre="Comedy" data-genre="Fantasy"  data-genre="SliceOfLife">
+      <h3 class="novel-title"><a href="in-the-land-of-leadale-light-novel.html">In The Land Of Leadale</a></h3>
+      <div>
+        <!--<img src="image_storage/In_the_Land_of_Leadale_light_novel_volume_1_cover.jpg" alt="image_storage/In_the_Land_of_Leadale_light_novel_volume_1_cover.jpg">-->
+        <img src="https://dl.dropbox.com/s/tg64h5mtbytoyzh/in_the_land_of_leadale_light_novel_volume_1_cover.jpg?dl=0" alt="in_the_land_of_leadale_light_novel_volume_1_cover.jpg">
+      </div>
       <article>
         <b>Description</b><br />
-        New Beginnings in Familiar Lands<br />After a horrific accident put her on life support, the last vestige of freedom Keina Kagami had was in the VRMMORPG World of Leadale...<a href="#" class="f-underline">Continue Reading &raquo;</a>
+        New Beginnings in Familiar Lands<br />After a horrific accident put her on life support, the last vestige of freedom Keina Kagami had was in the VRMMORPG World of Leadale...<a href="in-the-land-of-leadale-light-novel.html" class="f-underline">Continue Reading &raquo;</a>
       </article>
     </div>
   </div>
+  <p style="font-size:13px;">®FNovels Alright Reserve 2022</p>
   <!--Script-->
   <script src="jquery-3.6.0.min.js"></script>
   <script src="fnovels.min.js"></script>
