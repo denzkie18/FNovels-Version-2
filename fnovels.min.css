@@ -39,7 +39,7 @@ table tr td{text-align:center}
 .f-btn{margin:0;padding: 7px;border:none;background-color:var(--light)}
 .f-btn:hover{box-shadow:1px 1px 10px 1px var(--darkgrey)}
 .f-green{background-color:var(--green)}
-.f-round{border-radius:5px}.f-round-tl{border-top-left-radius:5px}.f-round-tr{border-top-right-radius:5px}.f-round-bl{border-bottom-left-radius:5px}.f-b-br{border-bottom-right-radius:5px}.f-border-clear{border:none}
+.f-round{border-radius:5px}.f-round-tl{border-top-left-radius:5px}.f-round-tr{border-top-right-radius:5px}.f-round-bl{border-bottom-left-radius:5px}.f-round-br{border-bottom-right-radius:5px}.f-border-clear{border:none}
 .f-sticky{position: sticky;top:0}
 .f-fixed{position: fixed;z-index:999}
 .f-absolute{position: absolute;z-index: 999}
