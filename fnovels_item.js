@@ -28,6 +28,8 @@ $(document).ready(function(){
          title: "The Angel Next Door Spoils Me Rotten Light Novel", image:/* "image_storage/Cover-3.jpg"*/"https://dl.dropbox.com/s/ianuto1cv9h1i7w/Cover-3.jpg?dl=0",link: "The-angel-next-door-spoil-me-rotten-light-novel.html"
        },{
          title: "Akashic Records of the Bastard Magical Instructor Light Novel", image: "image_storage/akashic-records-of-the-bastard-magical-instructor.png"/*"https://dl.dropbox.com/s/ianuto1cv9h1i7w/Cover-3.jpg?dl=0"*/, link: "akashic-record-of-the-bastard-magic-instructor-light-novel.html"
+       },{
+         title: "The Detective Is Already Dead Light Novel", image: /*"image_storage/akashic-records-of-the-bastard-magical-instructor.png"*/"https://dl.dropbox.com/s/820obhte8xo5rwj/the%20detective%20is%20already%20dead%20cover.jpg?dl=0", link: "the-detective-is-already-dead-light-novel.html"
        }
     ];
   
