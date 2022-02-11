@@ -48,3 +48,5 @@ table tr td{text-align:center}
 .f-dark{background-color:var(--dark)}
 .f-underline{text-decoration:underline}
 .f-pad{padding: 7px 10px}.f-pad-bottom{padding-bottom:10px}
+/*Natural*/
+.recommended{min-height:280px;overflow-y:scroll}
