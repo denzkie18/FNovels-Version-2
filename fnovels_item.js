@@ -26,17 +26,23 @@ $(document).ready(function(){
          title: "From Toxic Classmate To Girlfriend Goals Light Novel", image: /*"image_storage/from-toxic-classmate-to-girlfriend-goals.jpg"*/"https://dl.dropbox.com/s/vxpci6zu4tjt0a5/16444373003486878436723595178715.jpg?dl=0", link: "from-toxic-classmate-to-girlfriend-goals-light-novel.html"
        },{
          title: "The Angel Next Door Spoils Me Rotten Light Novel", image:/* "image_storage/Cover-3.jpg"*/"https://dl.dropbox.com/s/ianuto1cv9h1i7w/Cover-3.jpg?dl=0",link: "The-angel-next-door-spoil-me-rotten-light-novel.html"
+       },{
+         title: "Akashic Records of the Bastard Magical Instructor Light Novel", image: "image_storage/akashic-records-of-the-bastard-magical-instructor.png"/*"https://dl.dropbox.com/s/ianuto1cv9h1i7w/Cover-3.jpg?dl=0"*/, link: "akashic-record-of-the-bastard-magic-instructor-light-novel.html"
        }
     ];
   
   let searchItems = $(".searchItems");
   let recommend = $(".recommend");
+  let allList = $(".allList");
+  let arr;
   
   //Loop items through arrays
   for (let x in items) {
     let div = document.createElement("div");
     let a = document.createElement("a");
     let a2 = document.createElement("a");
+    let a3 = document.createElement("a");
+    let all_Li = document.createElement("li");
     let img = document.createElement("img");
     let p = document.createElement("p");
     let p2 = document.createElement("p");
@@ -45,9 +51,12 @@ $(document).ready(function(){
     img.setAttribute("src","");
     img.setAttribute("alt","");
     a2.setAttribute("href","");
+    a3.setAttribute("href","");
     
     a2.href = items[x].link;
     a.href = items[x].link;
+    a3.hrer = items[x].link;
+    a3.innerHTML = items[x].title;
     img.src = items[x].image;
     img.alt = items[x].image;
     p.innerHTML = items[x].title;
@@ -60,6 +69,9 @@ $(document).ready(function(){
     
     a2.append(p2);
     recommend.prepend(a2);
+    
+    all_Li.append(a3);
+    allList.append(all_Li);
     
   }
   
