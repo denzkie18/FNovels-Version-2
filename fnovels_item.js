@@ -30,6 +30,8 @@ $(document).ready(function(){
          title: "Akashic Records of the Bastard Magical Instructor Light Novel", image: "image_storage/akashic-records-of-the-bastard-magical-instructor.png""https://dl.dropbox.com/s/ianuto1cv9h1i7w/Cover-3.jpg?dl=0", link: "akashic-record-of-the-bastard-magic-instructor-light-novel.html"
        }*/,{
          title: "The Detective Is Already Dead Light Novel", image: /*"image_storage/akashic-records-of-the-bastard-magical-instructor.png"*/"https://dl.dropbox.com/s/820obhte8xo5rwj/the%20detective%20is%20already%20dead%20cover.jpg?dl=0", link: "the-detective-is-already-dead-light-novel.html"
+       },{
+         title: "Tanin wo Yosetsukenai Buaisouna Joshi ni Sekkyou shitara Mechakucha Natsukareta",image:"https://dl.dropbox.com/s/qb84fhtteq3xhcp/16446283798785780425450199224758.jpg?dl=0",link:"Tanin wo Yosetsukenai Buaisouna Joshi ni Sekkyou shitara Mechakucha Natsukareta light novel.html"
        }
     ];
   

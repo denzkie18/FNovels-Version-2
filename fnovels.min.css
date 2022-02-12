@@ -52,5 +52,4 @@ table tr td{text-align:center}
 .f-center{display:flex;justify-content:center;align-items:center;flex-direction:column}
 .f-ul-num{list-style-type:number}
 /*Natural*/
-.recommended{height:280px;overflow-y:scroll}
-.fnovels-text{background: -webkit-linear-gradient(#333, #E1BD00);-webkit-background-clip: text;-webkit-text-fill-color: transparent;font-size: 35px;margin:0;padding:5px 3px;width:78%;height:45px}
+.recommend{height:280px;overflow-y:scroll}
