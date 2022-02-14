@@ -67,7 +67,7 @@ $(document).ready(function(){
     
     a2.href = items[x].link;
     a.href = items[x].link;
-    a3.hrer = items[x].link;
+    a3.href = items[x].link;
     a3.innerHTML = items[x].title;
     img.src = items[x].image;
     img.alt = items[x].image;
