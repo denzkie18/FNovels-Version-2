@@ -32,10 +32,14 @@ $(document).ready(function(){
          title: "The Detective Is Already Dead Light Novel", image: /*"image_storage/akashic-records-of-the-bastard-magical-instructor.png"*/"https://dl.dropbox.com/s/820obhte8xo5rwj/the%20detective%20is%20already%20dead%20cover.jpg?dl=0", link: "the-detective-is-already-dead-light-novel.html"
        },{
          title: "Tanin wo Yosetsukenai Buaisouna Joshi ni Sekkyou shitara Mechakucha Natsukareta",image:"https://dl.dropbox.com/s/qb84fhtteq3xhcp/16446283798785780425450199224758.jpg?dl=0",link:"Tanin wo Yosetsukenai Buaisouna Joshi ni Sekkyou shitara Mechakucha Natsukareta light novel.html"
+       },{
+         title: "Assassins Pride Light Novel", image: "https://dl.dropbox.com/s/unxfotayiu1w5eo/Assassins%20Pride%20Volume%20Cover.jpg?dl=0", link: "assassins-pride-light-novel.html"
        }/*,{
          title:"Eighty Six Light Novel", image:"image_storage/86__000.jpg",link:"eighty-six-light-novel.html"
        }*/
     ];
+    
+  $(".totalList").text("Total LN: "+items.length);
   
   let searchItems = $(".searchItems");
   let recommend = $(".recommend");
@@ -80,6 +84,7 @@ $(document).ready(function(){
     allList.append(all_Li);
     
   }
+  
   
   //Search Filter
   $("#search").on("keyup", function(){
