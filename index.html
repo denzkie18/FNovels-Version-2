@@ -39,12 +39,14 @@
       transition: transform 1s
     }
     .searchItems {
-      width: 98%;
-      height: auto;
+      width: 96%;
+      height: 300px;
       position: absolute;
       z-index: 5;
       background-color: #fff;
-      display: none
+      display: none;
+      overflow-x:hidden;
+      overflow-y:scroll
     }
     .searchItems > div {
       width: inherit;
@@ -55,13 +57,14 @@
     }
     .searchItems > div > a > img {
       width: 55px;
-      max-height: 75px
+      min-height: 75px
     }
     .searchItems > div > a > p {
       width: 100%;
       overflow: hidden;
       font-size: 16px;
     }
+    #theme{color:white;border-color:grey;padding:5px;outline:none;background-color:black;border-radius:5px}
   </style>
 </head>
 <body>
@@ -80,6 +83,15 @@
       <p>
         <a href="light-novel-list.html">Light Novel List</a>
       </p>
+      <!--<p>
+        Change Theme:
+        <select name="theme" id="theme">
+          <option value="Default" selected>Default</option>
+          <option value="GradientViolet">Gradient Violet</option>
+          <option value="Dark">Dark</option>
+          <option value="Monokai">Monokai</option>
+        </select>
+      </p>-->
     </div>
   </nav>
   <div class="f-container">
@@ -99,8 +111,18 @@
   <div class="f-container" style="padding:0 5px;">
     <h3 class="f-round f-center f-blue" style="width: 170px;color:white;margin-top:7px; margin-left: 3px;" id="r">Novel Released</h3>
     
-    <p id="announcement" class="f-round f-light announcement" style="font-size:12px;width: 100%;color:black;margin-top:7px; margin-left: 3px;"></p>
+    <p id="announcement" class="f-round f-light announcement"></p>
     
+  <!--<div id="novelItem" class="novel-item" data-genre="Comedy" data-genre="Romance" data-genre="SchoolLife" data-genre="SliceOfLife" data-genre="Drama">
+    <h3 class="novel-title"><a href="eighty-six-light-novel.html">Eighty Six</a></h3>
+    <div>
+      <img src="image_storage/86__000.jpg" alt="Cover-3.jpg">
+      <!--<img src="https://dl.dropbox.com/s/qb84fhtteq3xhcp/16446283798785780425450199224758.jpg?dl=0" alt="16446283798785780425450199224758.jpg">-->
+    <!--</div>
+    <article>
+      <b>Description</b><br />A War Without Casualties.<br/><br/>The Republic of San Magnolia has long been under attack from the neighbouring Giadian Empire’s army of unmanned drones known as the Legion. After years of painstaking research, the Republic finally developed autonomous drones of their own...<a href="eighty-six-light-novel.html" class="f-underline">Continue Reading &raquo;</a>
+    </article>
+  </div>-->
    <div id="novelItem" class="novel-item" data-genre="Comedy" data-genre="Romance" data-genre="SchoolLife" data-genre="SliceOfLife" data-genre="Drama" data-title="Tanin wo Yosetsukenai Buaisouna Joshi ni Sekkyou shitara Mechakucha Natsukareta">
    <h3 class="novel-title"><a href="Tanin wo Yosetsukenai Buaisouna Joshi ni Sekkyou shitara Mechakucha Natsukareta light novel.html">Tanin wo Yosetsukenai Buaisouna Joshi ni Sekkyou shitara, Mechakucha Natsukareta</a></h3>
    <div>
@@ -108,7 +130,7 @@
      <img src="https://dl.dropbox.com/s/qb84fhtteq3xhcp/16446283798785780425450199224758.jpg?dl=0" alt="16446283798785780425450199224758.jpg">
    </div>
    <article>
-     <b>Description</b><br />This guy made my otherwise ordinary days a little more fun!<br/><br/>One day, Naoya Ookusu, the class president, gave a lecture to one of his classmates, Risa Enami about her lackluster attitude.....<a href="Tanin wo Yosetsukenai Buaisouna Joshi ni Sekkyou shitara Mechakucha Natsukareta light novel.html" class="f-underline">Continue Reading &raquo;</a>
+     <b>Description</b><br />This guy made my otherwise ordinary days a little more fun!<br/><br/>One day, Naoya Ookusu, the class president, gave a lecture to one of his classmates, Risa Enami about her lackluster attitude...<a href="Tanin wo Yosetsukenai Buaisouna Joshi ni Sekkyou shitara Mechakucha Natsukareta light novel.html" class="f-underline">Continue Reading &raquo;</a>
    </article>
    </div>
    <div id="novelItem" class="novel-item" data-genre="Comedy" data-genre="Romance" data-genre="SchoolLife" data-genre="SliceOfLife" data-genre="Drama" data-title="The Detective Is Already Dead">
@@ -272,7 +294,7 @@
       </article>
     </div>
   </div>
-  <p style="font-size:13px;">®FNovels Alright Reserve 2022</p>
+  <p style="font-size:13px;" id="footer">®FNovels Alright Reserve 2022</p>
   <!--Script-->
   <script src="jquery-3.6.0.min.js"></script>
   <script src="fnovels.min.js"></script>
