@@ -1,7 +1,8 @@
 /*Imported Poppins Font*/
 @import url('http://fonts.cdnfonts.com/css/poppins');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 :root{
-  /*default font*/--poppins: "Poppins",sans-serif;
+  /*default font*/--poppins:'Poppins', sans-serif;
   /*font size*/--default: 13pt;
   /*Background Colors*/--dark: #151515;--darkgrey:#9e9e9e;--light:#fff;
   /*Text Color*/--text-light:#fff;--text-red:#FF7B7B;--text-orange:#FFAFAD;--text-yellow:#FFF065;
