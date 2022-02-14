@@ -34,6 +34,8 @@ $(document).ready(function(){
          title: "Tanin wo Yosetsukenai Buaisouna Joshi ni Sekkyou shitara Mechakucha Natsukareta",image:"https://dl.dropbox.com/s/qb84fhtteq3xhcp/16446283798785780425450199224758.jpg?dl=0",link:"Tanin wo Yosetsukenai Buaisouna Joshi ni Sekkyou shitara Mechakucha Natsukareta light novel.html"
        },{
          title: "Assassins Pride Light Novel", image: "https://dl.dropbox.com/s/unxfotayiu1w5eo/Assassins%20Pride%20Volume%20Cover.jpg?dl=0", link: "assassins-pride-light-novel.html"
+       },{
+         title:"Love Advice From A Childhood Friend",image:"https://dl.dropbox.com/s/rd9jczdwzsw1ie0/16448722605941967747350090885705.jpg?dl=0",link:"love-advice-from-a-childhood-friend-light-novel.html"
        }/*,{
          title:"Eighty Six Light Novel", image:"image_storage/86__000.jpg",link:"eighty-six-light-novel.html"
        }*/
