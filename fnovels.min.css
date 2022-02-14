@@ -11,6 +11,7 @@
 body{max-width:100%;font-size:var(--default)!important;font-family:var(--poppins)!important}
 /*Default*/
 p,h1,h2,h3,h4,h5,h6{font-family: var(--poppins)!important;padding:3px;margin:0}
+span{font-family:var(--poppins)!important}
 a{text-decoration: none;color:inherit}
 a:hover{color:#4DFFCF;cursor:pointer}
 input{width:100%;height:auto;padding: 10px 5px;margin:0;background-color:var(--light);border:none;outline:none}
@@ -55,4 +56,5 @@ table tr td{text-align:center}
 .f-ul-none li{margin:5px 10px;width:inherit;padding:3px 5px;text-align:center;border:1px solid grey;border-radius:5px}
 /*Natural*/
 .recommend{height:280px;overflow-y:scroll}
-.announcement{width:inherit;background-color: var(--yellow);padding: 5px;font-size:12px;color:black;margin: 7px 3px 5px 3px}
+.announcement,.note{width:98%;background-color: var(--yellow);padding: 5px;font-size:12px;color:black;margin: 7px 3px 5px 3px}
+.note{background-color:#FF7B7B}
