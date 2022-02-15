@@ -60,6 +60,7 @@ table tr td{text-align:center}
 .f-text-yellow{color:var(--text-yellow)}
 .f-text-orange{color:var(--text-orange)}
 .f-red{background-color:var(--red)}
+.f-text-blue{color:var(--blue)}
 /*Natural*/
 .recommend{height:280px;overflow-y:scroll}
 .announcement,.note{width:98%;background-color: var(--yellow);padding: 5px;font-size:12px;color:black;margin: 7px 3px 5px 3px}
