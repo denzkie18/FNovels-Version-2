@@ -36,6 +36,8 @@ $(document).ready(function(){
          title: "Assassins Pride Light Novel", image: "https://dl.dropbox.com/s/unxfotayiu1w5eo/Assassins%20Pride%20Volume%20Cover.jpg?dl=0", link: "assassins-pride-light-novel.html"
        },{
          title:"Love Advice From A Childhood Friend",image:"https://dl.dropbox.com/s/rd9jczdwzsw1ie0/16448722605941967747350090885705.jpg?dl=0",link:"love-advice-from-a-childhood-friend-light-novel.html"
+       },{
+         title:"You Are the Daughter of My First Love Light Novel", image:"https://dl.dropbox.com/s/wh87nrad03iebwt/16449161930398550328096158866316.jpg?dl=0", link:"you-are-the-daughter-of-my-first-love-light-novel.html"
        }/*,{
          title:"Eighty Six Light Novel", image:"image_storage/86__000.jpg",link:"eighty-six-light-novel.html"
        }*/
