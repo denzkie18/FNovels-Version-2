@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 :root{
   /*default font*/--poppins:'Poppins', sans-serif;
-  /*font size*/--default: 13pt;
+  /*font size*/--default: 11pt;
   /*Background Colors*/--dark: #151515;--darkgrey:#9e9e9e;--light:#fff;
   /*Text Color*/--text-light:#fff;--text-red:#FF7B7B;--text-orange:#FFAFAD;--text-yellow:#FFF065;
   /*Background Color*/--green:#38B800;--blue:#4D5BFF;--orange:#FFAF4D;--yellow: #FFF065;--gradient-violet:linear-gradient(#9800BE,#D3DF00);--red:#FF7B7B
@@ -64,9 +64,35 @@ table tr td{text-align:center}
 /*Natural*/
 .recommend{height:280px;overflow-y:scroll}
 @keyframes ann{0%{opacity:1}40%{opacity:0.5}70%{opacity:0.3}100%{opacity:1}}
-.floating-btn{width:35px;height:35px;padding:0;border-radius: 50%;background-color:#2F7600;position:fixed;bottom:5px;right:10px}
+.floating-btn{width:35px;height:35px;padding:0;border-radius: 50%;background-color:#2F7600;position:fixed;bottom:5px;right:10px;z-index:200}
 .floating-btn button{width:inherit;height:inherit;border-radius: 50%;background:none;border:none;padding:0;margin:0}
 .floating-btn button img{width:100%;height:auto}
 .floating-btn #animateAnn{position:absolute;left:0;top:-5px;z-index:5;color:red;font-size:35px;animation:ann 1s infinite ease-in-out}
 .floating-btn #announce{width:180px;height:auto;background-color:var(--yellow);color:black;padding-left:5px;position:absolute;left:-160px;top:-140px;display:none;border-radius:5px;z-index:10px}
 .floating-btn #announce span{font-size:10px}
+.searchItems {
+      width: 96%;
+      max-height: 250px;
+      position: absolute;
+      z-index: 5;
+      background-color: #fff;
+      display: none;
+      overflow-x:hidden;
+      overflow-y:scroll
+    }
+    .searchItems > div {
+      width: inherit;
+      height: auto
+    }
+    .searchItems > div > a {
+      display: flex
+    }
+    .searchItems > div > a > img {
+      width: 55px;
+      height: 70px
+    }
+    .searchItems > div > a > p {
+      width: 100%;
+      overflow: hidden;
+      font-size: 16px;
+    }

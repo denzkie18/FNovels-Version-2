@@ -20,30 +20,6 @@
             width: 100%;
             height: auto
         }
-        .searchItems {
-            width: 98%;
-            height: auto;
-            position: absolute;
-            z-index: 5;
-            background-color: #fff;
-            display: none
-        }
-        .searchItems > div {
-            width: inherit;
-            height: auto
-        }
-        .searchItems > div > a {
-            display: flex
-        }
-        .searchItems > div > a > img {
-            width: 45px;
-            height: 65px
-        }
-        .searchItems > div > a > p {
-            width: 100%;
-            overflow: hidden;
-            font-size: 16px;
-        }
         .epub,.pdf {
             padding: 10px 5px
         }
@@ -63,6 +39,11 @@
     </style>
 </head>
 <body>
+  <div class="floating-btn">
+    <div id="announce"><span id="textAnn"></span></div>
+    <span id="animateAnn"><b>!</b></span>
+    <button class="f-btn ann-btn"><img src="logo.png" alt="logo.png"></button>
+  </div>
     <nav class="f-nav f-sticky">
         <div class="f-nav-content f-row">
             <img class="f-nav-logo" src="fnovelslogo.png" alt="fnovelslogo.png" />
@@ -89,9 +70,6 @@
     </div>
     <!--Item List -->
     <div class="f-container" style="padding:0 5px;">
-
-        <p class="f-round announcement"></p>
-        <p class="f-round note"></p>
 
         <h3 class="title f-blue" style="width: auto;color:white;margin-top:7px;">Akashic Records of the Bastard Magical Instructor Light Novel</h3>
         <img id="logoItem" src="image_storage/akashic-records-of-the-bastard-magical-instructor.png" alt="Cover-3.jpg">
