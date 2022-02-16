@@ -63,5 +63,10 @@ table tr td{text-align:center}
 .f-text-blue{color:var(--blue)}
 /*Natural*/
 .recommend{height:280px;overflow-y:scroll}
-.announcement,.note{width:98%;background-color: var(--yellow);padding: 5px;font-size:12px;color:black;margin: 7px 3px 5px 3px}
-.note{background-color:#FF7B7B}
+@keyframes ann{0%{opacity:1}40%{opacity:0.5}70%{opacity:0.3}100%{opacity:1}}
+.floating-btn{width:35px;height:35px;padding:0;border-radius: 50%;background-color:#2F7600;position:fixed;bottom:5px;right:10px}
+.floating-btn button{width:inherit;height:inherit;border-radius: 50%;background:none;border:none;padding:0;margin:0}
+.floating-btn button img{width:100%;height:auto}
+.floating-btn #animateAnn{position:absolute;left:0;top:-5px;z-index:5;color:red;font-size:35px;animation:ann 1s infinite ease-in-out}
+.floating-btn #announce{width:180px;height:auto;background-color:var(--yellow);color:black;padding-left:5px;position:absolute;left:-160px;top:-140px;display:none;border-radius:5px;z-index:10px}
+.floating-btn #announce span{font-size:10px}
