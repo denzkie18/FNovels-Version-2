@@ -46,6 +46,8 @@ $(document).ready(function(){
          title:"She Professed Herself The Pupil Of The Wiseman", image:"https://dl.dropbox.com/s/b1ry1q5bxyrqnds/16450427437386458394434451305999.png?dl=0",link:"she-professed-herself-pupil-of-the-wiseman-light-novel.html"
        },{
          title:"I Was Kicked out of the Hero\'s Party Because I Wasn\'t a True Companion so I Decided to Have a Slow Life at the Frontier", image:"https://dl.dropbox.com/s/n7bp1h70ohwp5a8/16450515878378032742422983169489.jpg?dl=0", link:"I-Was-Kicked-out-of-the-Heros-Party-Because-I-Wasnt-a-True-Companion-so-I-Decided-to-Have-a-Slow-Life-at-the-Frontier-light-novel.html"
+       },{
+         title:"Forever and Always, My Childhood Friend is the Cutest Girl in the World", image:"https://cdn.novelupdates.com/images/2020/11/EljAp04UYAEUSNe.jpg", link:"Forever-and-Always-My-Childhood-Friend-is-the-Cutest-Girl-in-the-World-light-novel.html"
        }
     ];
     
