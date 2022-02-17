@@ -50,6 +50,8 @@ $(document).ready(function(){
          title:"Forever and Always, My Childhood Friend is the Cutest Girl in the World", image:"https://cdn.novelupdates.com/images/2020/11/EljAp04UYAEUSNe.jpg", link:"Forever-and-Always-My-Childhood-Friend-is-the-Cutest-Girl-in-the-World-light-novel.html"
        },{
          title:"Saint? No! I’m Just a Passing Beast Tamer!", image:"https://i0.wp.com/jnovels.com/wp-content/uploads/2022/02/Saint-No-Im-Just-a-Passing-Beast-Tamer-vol-1.jpg?w=500&ssl=1", link:"Saint-No-Im-Just-a-Passing-Beast-Tamer-light-novel.html"
+       },{
+         title:"The Demon Sword Master of Excalibur Academy", image:"ExcaliburAcademy.jpg", link:"The-Demon-Sword-Master-of-Excalibur-Academy.html"
        }
     ];
     
