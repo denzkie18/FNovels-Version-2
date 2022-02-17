@@ -78,7 +78,7 @@ table tr td{text-align:center}
 .slideshow-container {max-width: 1000px;position: relative;margin: 10px}
 .mySlides {display: none;border-radius:5px}
 .mySlides img{border-radius:5px}
-.text {color: #f2f2f2;font-size: 15px;padding: 8px 12px;position: absolute;bottom: 4px;width: 100%;text-align: center;background: rgba(0,0,0, 0.5);border-bottom-left-radius:5px;border-bottom-right-radius:5px}
+.text {color: #f2f2f2;font-size: 15px;padding: 8px 12px;position: absolute;bottom: 5px;width: 100%;text-align: center;background: rgba(0,0,0, 0.5);border-bottom-left-radius:5px;border-bottom-right-radius:5px}
 .numbertext {color: #f2f2f2;font-size: 12px;padding: 8px 12px;position: absolute;top: 0}
 .fade {-webkit-animation-name: fade;-webkit-animation-duration: 1.5s;animation-name: fade;animation-duration: 1.5s}
 @-webkit-keyframes fade {from {opacity: .4}to {opacity: 1}}
