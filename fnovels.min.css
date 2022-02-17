@@ -70,29 +70,16 @@ table tr td{text-align:center}
 .floating-btn #animateAnn{position:absolute;left:0;top:-5px;z-index:5;color:red;font-size:35px;animation:ann 1s infinite ease-in-out}
 .floating-btn #announce{width:180px;height:auto;background-color:var(--yellow);color:black;padding-left:5px;position:absolute;left:-160px;top:-140px;display:none;border-radius:5px;z-index:10px}
 .floating-btn #announce span{font-size:10px}
-.searchItems {
-      width: 96%;
-      max-height: 250px;
-      position: absolute;
-      z-index: 5;
-      background-color: #fff;
-      display: none;
-      overflow-x:hidden;
-      overflow-y:scroll
-    }
-    .searchItems > div {
-      width: inherit;
-      height: auto
-    }
-    .searchItems > div > a {
-      display: flex
-    }
-    .searchItems > div > a > img {
-      width: 55px;
-      height: 70px
-    }
-    .searchItems > div > a > p {
-      width: 100%;
-      overflow: hidden;
-      font-size: 16px;
-    }
+.searchItems {width: 96%;max-height: 250px;position: absolute;z-index: 5;background-color: #fff;display: none;overflow-x:hidden;overflow-y:scroll}
+.searchItems > div {width: inherit;height: auto}
+.searchItems > div > a {display: flex}
+.searchItems > div > a > img {width: 55px;height: 70px}
+.searchItems > div > a > p {width: 100%;overflow: hidden;font-size: 16px;}
+.slideshow-container {max-width: 1000px;position: relative;margin: 10px}
+.mySlides {display: none;border-radius:5px}
+.mySlides img{border-radius:5px}
+.text {color: #f2f2f2;font-size: 15px;padding: 8px 12px;position: absolute;bottom: 4px;width: 100%;text-align: center;background: rgba(0,0,0, 0.5);border-bottom-left-radius:5px;border-bottom-right-radius:5px}
+.numbertext {color: #f2f2f2;font-size: 12px;padding: 8px 12px;position: absolute;top: 0}
+.fade {-webkit-animation-name: fade;-webkit-animation-duration: 1.5s;animation-name: fade;animation-duration: 1.5s}
+@-webkit-keyframes fade {from {opacity: .4}to {opacity: 1}}
+@keyframes fade {from {opacity: .4}to {opacity: 1}}
