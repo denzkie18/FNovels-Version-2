@@ -41,7 +41,7 @@ $(document).ready(function(){
        },{
          title:"Re:Monster Light Novel", image:"https://dl.dropbox.com/s/pctxumvjef7b2gc/16449565729146760920435502061508.jpg?dl=0", link:"re-monster-light-novel.html"
        },{
-         title:"Eighty Six Light Novel", image:"86__000.jpg",link:"eighty-six-light-novel.html"
+         title:"Eighty Six Light Novel", image:"https://dl.dropbox.com/s/doyito75rtj0fp7/86__000.jpg?dl=0",link:"eighty-six-light-novel.html"
        },{
          title:"She Professed Herself The Pupil Of The Wiseman", image:"https://dl.dropbox.com/s/b1ry1q5bxyrqnds/16450427437386458394434451305999.png?dl=0",link:"she-professed-herself-pupil-of-the-wiseman-light-novel.html"
        },{
@@ -51,7 +51,7 @@ $(document).ready(function(){
        },{
          title:"Saint? No! I’m Just a Passing Beast Tamer!", image:"https://i0.wp.com/jnovels.com/wp-content/uploads/2022/02/Saint-No-Im-Just-a-Passing-Beast-Tamer-vol-1.jpg?w=500&ssl=1", link:"Saint-No-Im-Just-a-Passing-Beast-Tamer-light-novel.html"
        },{
-         title:"The Demon Sword Master of Excalibur Academy", image:"ExcaliburAcademy.jpg", link:"The-Demon-Sword-Master-of-Excalibur-Academy.html"
+         title:"The Demon Sword Master of Excalibur Academy", image:"https://dl.dropbox.com/s/858yh17thz6q360/9781975308667.jpg?dl=0", link:"The-Demon-Sword-Master-of-Excalibur-Academy.html"
        }
     ];
     
