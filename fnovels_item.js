@@ -48,6 +48,8 @@ $(document).ready(function(){
          title:"I Was Kicked out of the Hero\'s Party Because I Wasn\'t a True Companion so I Decided to Have a Slow Life at the Frontier", image:"https://dl.dropbox.com/s/n7bp1h70ohwp5a8/16450515878378032742422983169489.jpg?dl=0", link:"I-Was-Kicked-out-of-the-Heros-Party-Because-I-Wasnt-a-True-Companion-so-I-Decided-to-Have-a-Slow-Life-at-the-Frontier-light-novel.html"
        },{
          title:"Forever and Always, My Childhood Friend is the Cutest Girl in the World", image:"https://cdn.novelupdates.com/images/2020/11/EljAp04UYAEUSNe.jpg", link:"Forever-and-Always-My-Childhood-Friend-is-the-Cutest-Girl-in-the-World-light-novel.html"
+       },{
+         title:"Saint? No! I’m Just a Passing Beast Tamer!", image:"https://i0.wp.com/jnovels.com/wp-content/uploads/2022/02/Saint-No-Im-Just-a-Passing-Beast-Tamer-vol-1.jpg?w=500&ssl=1", link:"Saint-No-Im-Just-a-Passing-Beast-Tamer-light-novel.html"
        }
     ];
     
