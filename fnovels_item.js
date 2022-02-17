@@ -52,6 +52,8 @@ $(document).ready(function(){
          title:"Saint? No! I’m Just a Passing Beast Tamer!", image:"https://i0.wp.com/jnovels.com/wp-content/uploads/2022/02/Saint-No-Im-Just-a-Passing-Beast-Tamer-vol-1.jpg?w=500&ssl=1", link:"Saint-No-Im-Just-a-Passing-Beast-Tamer-light-novel.html"
        },{
          title:"The Demon Sword Master of Excalibur Academy", image:"https://dl.dropbox.com/s/858yh17thz6q360/9781975308667.jpg?dl=0", link:"The-Demon-Sword-Master-of-Excalibur-Academy.html"
+       },{
+         title:"Classroom Of The Elite", image:"https://dl.dropbox.com/s/ssza23rpewnjurm/16451143816823516662773797891316.jpg?dl=0", link:"classroom-of-the-elite-light-novel.html"
        }
     ];
     
@@ -101,6 +103,16 @@ $(document).ready(function(){
     
   }
   
+    $(".searchItems div").sort(asc_sort).appendTo(".searchItems");
+  
+    function asc_sort(a, b) {
+      return ($(b).text()) < ($(a).text()) ? 1 : -1;
+    }
+    $(".recommend a").sort(asc_rec).appendTo(".recommend");
+    
+    function asc_rec(x, y) {
+      return ($(y).text()) < ($(x).text()) ? 1 : -1;
+    }
   
   //Search Filter
   $("#search").on("keyup", function(){
