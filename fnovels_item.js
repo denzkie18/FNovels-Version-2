@@ -54,6 +54,8 @@ $(document).ready(function(){
          title:"The Demon Sword Master of Excalibur Academy", image:"https://dl.dropbox.com/s/858yh17thz6q360/9781975308667.jpg?dl=0", link:"The-Demon-Sword-Master-of-Excalibur-Academy.html"
        },{
          title:"Classroom Of The Elite", image:"https://dl.dropbox.com/s/ssza23rpewnjurm/16451143816823516662773797891316.jpg?dl=0", link:"classroom-of-the-elite-light-novel.html"
+       },{
+         title:"Classroom Of The Elite 2nd Year", image:"https://dl.dropbox.com/s/1jcy10gknl4pvne/16451467671135017709505677528662.jpg?dl=0", link:"classroom-of-the-elite-year-2-light-novel.html"
        }
     ];
     
