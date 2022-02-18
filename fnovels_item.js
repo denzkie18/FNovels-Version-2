@@ -56,6 +56,8 @@ $(document).ready(function(){
          title:"Classroom Of The Elite", image:"https://dl.dropbox.com/s/ssza23rpewnjurm/16451143816823516662773797891316.jpg?dl=0", link:"classroom-of-the-elite-light-novel.html"
        },{
          title:"Classroom Of The Elite 2nd Year", image:"https://dl.dropbox.com/s/1jcy10gknl4pvne/16451467671135017709505677528662.jpg?dl=0", link:"classroom-of-the-elite-year-2-light-novel.html"
+       },{
+         title:"The World Before Darkness (WM)", image:"", link:"the-world-before-darkness-web-novel.html"
        }
     ];
     
