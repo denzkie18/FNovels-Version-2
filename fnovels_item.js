@@ -64,6 +64,8 @@ $(document).ready(function(){
          title:"When Supernatural Battles Became Commonplace", image:"https://dl.dropbox.com/s/20e0s22f37pwkhn/16453538662163268411483001086106.jpg?dl=0", link:"When-Supernatural-Battles-Became-Commonplace-light-novel.html"
        },{
          title:"What Happens If You Saved A High School Girl Who Was About To Jump Off?", image:"https://dl.dropbox.com/s/rbc1eqszuhws8r7/16453647340452634215582532259849.jpg?dl=0", link:"What-Happens-If-You-Saved-A-High-School-Girl-Who-Was-About-To-Jump-Off-light-novel.html"
+       },{
+         title:"Konosuba: God\'s Blessing on This Wonderful World!", image:"https://cdn.novelupdates.com/images/2016/03/kudi3rV.jpg",link:"konosuba-gods-blessing-into-this-wonderful-world-light-novel.html"
        }
     ];
     
