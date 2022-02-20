@@ -62,6 +62,8 @@ $(document).ready(function(){
          title:"Until My Girl Friend Who Said, \"Let\'s Be Friends Forever, Okay?\" Stops Being My Friend", image:"https://dl.dropbox.com/s/cr08fvkkzhds2bn/cover345.jpg?dl=0", link:"Until-My-Girl-Friend-Who-Said-Lets-Be-Friends-Forever-Okay-Stops-Being-My-Friend.html"
        },{
          title:"When Supernatural Battles Became Commonplace", image:"https://dl.dropbox.com/s/20e0s22f37pwkhn/16453538662163268411483001086106.jpg?dl=0", link:"When-Supernatural-Battles-Became-Commonplace-light-novel.html"
+       },{
+         title:"What Happens If You Saved A High School Girl Who Was About To Jump Off?", image:"https://dl.dropbox.com/s/rbc1eqszuhws8r7/16453647340452634215582532259849.jpg?dl=0", link:"What-Happens-If-You-Saved-A-High-School-Girl-Who-Was-About-To-Jump-Off-light-novel.html"
        }
     ];
     
