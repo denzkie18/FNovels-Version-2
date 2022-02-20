@@ -60,6 +60,8 @@ $(document).ready(function(){
          title:"The World Before Darkness (WN)", image:"https://dl.dropbox.com/s/3ovo7i70h7aglxf/1645256572680.jpg?dl=0", link:"the-world-before-darkness-web-novel.html"
        },{
          title:"Until My Girl Friend Who Said, \"Let\'s Be Friends Forever, Okay?\" Stops Being My Friend", image:"https://dl.dropbox.com/s/cr08fvkkzhds2bn/cover345.jpg?dl=0", link:"Until-My-Girl-Friend-Who-Said-Lets-Be-Friends-Forever-Okay-Stops-Being-My-Friend.html"
+       },{
+         title:"When Supernatural Battles Became Commonplace", image:"https://dl.dropbox.com/s/20e0s22f37pwkhn/16453538662163268411483001086106.jpg?dl=0", link:"When-Supernatural-Battles-Became-Commonplace-light-novel.html"
        }
     ];
     
