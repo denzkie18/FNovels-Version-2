@@ -20,29 +20,37 @@
     .novel-item {
       width: 100%;
       height: auto;
-      padding: 5px 3px;
+      padding: 0;
+      margin: 10px 0;
+      position: relative;
+      border-radius: 13px;
+      background: #ffffff;
+      box-shadow: inset 20px 20px 60px #d9d9d9, inset
+      -20px -20px 60px #ffffff
     }
     .novel-item > h3 {
       width: inherit;
       height: auto;
+      margin:0;
       padding: 7px 3px;
       background-color: #FFAF4D;
-      border-top-left-radius: 5px;
-      border-top-right-radius: 5px;
+      border-top-left-radius: 13px;
+      border-top-right-radius: 13px;
       color: white
     }
     .novel-item > div{
-      width:100%;
+      width:inherit;
       overflow: hidden
     }
     .novel-item > div > img {
-      width: inherit;
+      width: 100%;
       height: auto
     }
     .novel-item > div > img:hover{
       transform: scale(1.2);
       transition: transform 1s
     }
+    .novel-item > article{padding: 3px 6px}
     .notifyUpdate{display:none}
     #theme{color:white;border-color:grey;padding:5px;outline:none;background-color:black;border-radius:5px}
   </style>
@@ -115,9 +123,9 @@
   </div>
   
   
-  <div class="f-container" style="padding:0 5px;">
+  <div style="padding:0 10px;max-width:100%;">
     <h3 class="f-round f-center f-blue" style="width: 170px;color:white;margin-top:7px; margin-left: 3px;" id="r">Novel Released</h3>
-    <div class="f-round f-center f-red notify" style="width:98%;color:white;margin-top:7px; margin-left: 3px;" id="r">What's New?<br/>
+    <div class="f-round f-center f-red notify" style="width:98%;color:white;margin-top:7px; margin-left: 3px;z-index:10;" id="r">What's New?<br/>
     <span class="notifyUpdate" id="notifyUpdate" style="padding:5px 10px;"></span>
     </div>
     

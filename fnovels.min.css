@@ -9,7 +9,7 @@
   /*Background Color*/--green:#38B800;--blue:#4D5BFF;--orange:#FFAF4D;--yellow: #FFF065;--gradient-violet:linear-gradient(#9800BE,#D3DF00);--red:#FF7B7B
 }
 *{margin:0;padding:0;box-sizing: border-box;font-family: var(--poppins)}
-body{max-width:100%;font-size:var(--default)!important;font-family:var(--poppins)!important}
+body{max-width:100%;font-size:var(--default)!important;font-family:var(--poppins)!important;background: #ffffff}
 /*Default*/
 p,h1,h2,h3,h4,h5,h6{font-family: var(--poppins)!important;padding:3px;margin:0}
 span{font-family:var(--poppins)!important}
