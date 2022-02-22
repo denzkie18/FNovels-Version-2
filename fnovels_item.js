@@ -66,7 +66,10 @@ $(document).ready(function(){
          title:"What Happens If You Saved A High School Girl Who Was About To Jump Off?", image:"https://dl.dropbox.com/s/rbc1eqszuhws8r7/16453647340452634215582532259849.jpg?dl=0", link:"What-Happens-If-You-Saved-A-High-School-Girl-Who-Was-About-To-Jump-Off-light-novel.html"
        },{
          title:"Konosuba: God\'s Blessing on This Wonderful World!", image:"https://cdn.novelupdates.com/images/2016/03/kudi3rV.jpg",link:"konosuba-gods-blessing-into-this-wonderful-world-light-novel.html"
-       },{title:"Black Summoner", image:"https://cdn.novelupdates.com/images/2020/07/kuronoshoukanshi_v2b.jpg", link:"black-summoner-light-novel.html"}
+       },{title:"Black Summoner", image:"https://cdn.novelupdates.com/images/2020/07/kuronoshoukanshi_v2b.jpg", link:"black-summoner-light-novel.html"},
+       {
+          title:"The GM Has Logged Into A Different World",image:"https://cdn.novelupdates.com/images/2016/03/isekai-GM.jpg",link:"The-GM-Has-Logged-Into-A-Different-World.html"
+       }
     ];
     
   $(".totalList").text("Total LN: "+items.length);
