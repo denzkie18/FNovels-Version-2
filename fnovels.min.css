@@ -85,7 +85,7 @@ table tr td{text-align:center;max-width:130px;border:1px solid gold;padding:7px 
 .mySlides img{border-radius:5px}
 .text {color: #f2f2f2;font-size: 15px;padding: 8px 12px;position: absolute;bottom: 5px;width: 100%;text-align: center;background: rgba(0,0,0, 0.5);border-bottom-left-radius:5px;border-bottom-right-radius:5px}
 .numbertext {width:80px;color: #f2f2f2;font-size: 12px;padding: 8px 12px;position: absolute;top: 0;right:0}
-.recommended{background-color:#ff633d;color:white;font-weight:700;padding:5px;width:auto;position:absolute;top:0;left:0;font-size:20px;border-top-left-radius:5px;border-bottom-right-radius:5px}
+.hot{background-color:#ff633d;color:white;font-weight:700;padding:5px;width:auto;position:absolute;top:0;left:0;font-size:20px;border-top-left-radius:5px;border-bottom-right-radius:5px}
 .fade {-webkit-animation-name: fade;-webkit-animation-duration: 1.5s;animation-name: fade;animation-duration: 1.5s}
 @-webkit-keyframes fade {from {opacity: .4}to {opacity: 1}}
 @keyframes fade {from {opacity: .4}to {opacity: 1}}
