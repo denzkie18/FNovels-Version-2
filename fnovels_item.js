@@ -69,7 +69,7 @@ $(document).ready(function(){
        },{title:"Black Summoner", image:"https://cdn.novelupdates.com/images/2020/07/kuronoshoukanshi_v2b.jpg", link:"black-summoner-light-novel.html"},
        {
           title:"The GM Has Logged Into A Different World",image:"https://cdn.novelupdates.com/images/2016/03/isekai-GM.jpg",link:"The-GM-Has-Logged-Into-A-Different-World.html"
-       }
+       },{title:"Transition to Another World, Landmines Included", image:"https://cdn.novelupdates.com/images/2019/01/bobbk9hhcj4hih4fdarm72q87eif_lqh_ck_hv_3sd0.jpg", link:"Transition-to-Another-World-Landmines-Included.html"
     ];
     
   $(".totalList").text("Total LN: "+items.length);
