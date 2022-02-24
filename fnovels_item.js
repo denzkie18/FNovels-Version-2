@@ -1,6 +1,7 @@
 $(document).ready(function(){
   //List of items
   const items = [
+      {title:"The Girl I Saved on the Train Turned Out to Be My Childhood Friend", image:"https://cdn.novelupdates.com/images/2020/09/4815604202-417x596-1.jpg", link:"The-Girl-I-Saved-on-the-Train-Turned-Out-to-Be-My-Childhood-Friend.html"},
        {
          title:"Days With My Step-sister", image:/*"image_storage/Gimai-Seikatsu.jpg"*/"https://dl.dropbox.com/s/d7u38rnb77okm05/Gimai-Seikatsu.jpg?dl=0",link:"days with my stepsister light novel.html"
        },

@@ -91,3 +91,5 @@ table tr td{text-align:center;max-width:130px;border:1px solid gold;padding:7px 
 @keyframes fade {from {opacity: .4}to {opacity: 1}}
 .novel-item {width: 100%;height: auto;padding: 0;margin: 10px 0;position: relative;border-radius: 13px;background: #ffffff;box-shadow: inset 20px 20px 60px #d9d9d9, inset
       -20px -20px 60px #ffffff}.novel-item > h3 {width: inherit;height: auto;margin:0;padding: 7px 3px;background:linear-gradient(40deg, #ac64ff, #ffa231);border-top-left-radius: 13px;border-top-right-radius: 13px;color: white;padding-left:7px}.novel-item > div{width:inherit;overflow: hidden}.novel-item > div > img {width: 100%;height: auto}.novel-item > div > img:hover{transform: scale(1.2);transition: transform 1s}.novel-item > article{padding: 3px 6px}.notifyUpdate{display:none}
+/*Title of each item*/
+.title{background:linear-gradient(40deg, #ac64ff, #ffa231);padding-left:7px}
