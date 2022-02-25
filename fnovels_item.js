@@ -1,6 +1,7 @@
 $(document).ready(function(){
   //List of items
   const items = [
+     {title:"I Know That After School, The Saint is More Than Just Noble", image:"https://cdn.novelupdates.com/images/2021/05/I-Know-That-After-School-The-Saint-is-More-Than-Just-Noble.jpg",link:"i-know-that-after-school-the-saint-is-more-than-just-noble-light-novel.html"},
      {title:"The World’s Finest Assassin Gets Reincarnated in Another World as an Aristocrat",image:"https://cdn.novelupdates.com/images/2019/06/coverImage_3247459.jpg",link:"The-Worlds-Finest-Assassin-Gets-Reincarnated-in-Another-World-as-an-Aristocrat-light-novel.html"},
      {title:"Liar, Liar Light Novel",image:"https://cdn.novelupdates.com/images/2020/10/Liar-Liar.jpg",link:"liar-liar-light-novel.html"},
       {title:"The Girl I Saved on the Train Turned Out to Be My Childhood Friend", image:"https://cdn.novelupdates.com/images/2020/09/4815604202-417x596-1.jpg", link:"The-Girl-I-Saved-on-the-Train-Turned-Out-to-Be-My-Childhood-Friend.html"},
