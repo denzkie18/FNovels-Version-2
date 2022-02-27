@@ -1,7 +1,7 @@
 $(document).ready(function(){
   //List of items
   const items = [
-     {title:"I\'m Gonna Live with You Not Because My Parents Left Me Their Debt But Because I Like You",image:"https://cdn.novelupdates.com/images/2021/04/Im-Gonna-Live-with-You-Not-Because-My-Parents-Left-Me-Their-Debt-But-Because-I-Like-You.jpg",link:"https://www.fnovelsv2.cf/im-gonna-live-with-you-not-because-my-parents-left-me-their-debt-but-because-i-like-you"},
+     {title:"Im Gonna Live with You Not Because My Parents Left Me Their Debt But Because I Like You",image:"https://cdn.novelupdates.com/images/2021/04/Im-Gonna-Live-with-You-Not-Because-My-Parents-Left-Me-Their-Debt-But-Because-I-Like-You.jpg",link:"https://www.fnovelsv2.cf/im-gonna-live-with-you-not-because-my-parents-left-me-their-debt-but-because-i-like-you"},
      {title:"I Know That After School, The Saint is More Than Just Noble", image:"https://cdn.novelupdates.com/images/2021/05/I-Know-That-After-School-The-Saint-is-More-Than-Just-Noble.jpg",link:"i-know-that-after-school-the-saint-is-more-than-just-noble-light-novel.html"},
      {title:"The World’s Finest Assassin Gets Reincarnated in Another World as an Aristocrat",image:"https://cdn.novelupdates.com/images/2019/06/coverImage_3247459.jpg",link:"The-Worlds-Finest-Assassin-Gets-Reincarnated-in-Another-World-as-an-Aristocrat-light-novel.html"},
      {title:"Liar, Liar Light Novel",image:"https://cdn.novelupdates.com/images/2020/10/Liar-Liar.jpg",link:"liar-liar-light-novel.html"},
