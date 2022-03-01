@@ -1,6 +1,7 @@
 $(document).ready(function(){
   //List of items
   const items = [
+     {title:"Villainess: Reloaded! Blowing Away Bad Ends with Modern Weapons",image:"https://cdn.novelupdates.com/images/2019/05/The-Villainess-Will-Crush-Her-Destruction-End-Through-Modern-Firepower.jpg",link:"https://www.fnovelsv2.cf/Villainess-Reloaded-Blowing-Away-Bad-Ends-with-Modern-Weapons-light-novel"},
      {title:"My Seatmate Tries to Make Me Fall in Love with Her by Teasing Me Repeatedly, but Somehow She Was the One Who Fell",image:"https://cdn.novelupdates.com/images/2020/01/t_700x780.jpg",link:"https://www.fnovelsv2.cf/Turning-the-Tables-on-the-Seatmate-Killer-light-novel"},
      {title:"Im Gonna Live with You Not Because My Parents Left Me Their Debt But Because I Like You",image:"https://cdn.novelupdates.com/images/2021/04/Im-Gonna-Live-with-You-Not-Because-My-Parents-Left-Me-Their-Debt-But-Because-I-Like-You.jpg",link:"https://www.fnovelsv2.cf/im-gonna-live-with-you-not-because-my-parents-left-me-their-debt-but-because-i-like-you"},
      {title:"I Know That After School, The Saint is More Than Just Noble", image:"https://cdn.novelupdates.com/images/2021/05/I-Know-That-After-School-The-Saint-is-More-Than-Just-Noble.jpg",link:"i-know-that-after-school-the-saint-is-more-than-just-noble-light-novel.html"},
